@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Alinhamento da barra de tecnologias */
+.barra-tecnologias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Efeito de aumentar quando passa o mouse nos ícones de tecnologias*/
+.barra-tecnologias img:hover {
+    transform: scale(1.2);
+}
+
+/* Tamanho dos ícones de tecnologia */
+.barra-tecnologias img {
+    margin: 10px;
+    height: 60px;
+}
+
+/* Cor da barra superior de tecnologias */
+header {
+    background-color: #000000;
+}
+
+/* Imagem de fundo no centro da tela */
+.imagem-fundo {
+    background-image: url(/images/em-construcao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
